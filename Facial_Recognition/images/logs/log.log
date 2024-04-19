@@ -1,0 +1,21 @@
+INFO:root: Raw image 1 size: (1200, 675)
+INFO:root: Faces detected within image 1: 1
+INFO:root: Dimension of each cropped image saved from image 1: torch.Size([3, 160, 160])
+INFO:root: Raw image 2 size: (1980, 1320)
+INFO:root: Faces detected within image 2: 1
+INFO:root: Dimension of each cropped image saved from image 2: torch.Size([3, 160, 160])
+INFO:root: Raw image 3 size: (1920, 1080)
+INFO:root: Faces detected within image 3: 11
+INFO:root: Dimension of each cropped image saved from image 3: torch.Size([3, 160, 160])
+INFO:root: Raw image 4 size: (1280, 720)
+INFO:root: Faces detected within image 4: 5
+INFO:root: Dimension of each cropped image saved from image 4: torch.Size([3, 160, 160])
+INFO:root: Raw image 5 size: (1200, 1200)
+INFO:root: Faces detected within image 5: 9
+INFO:root: Dimension of each cropped image saved from image 5: torch.Size([3, 160, 160])
+INFO:root: [Faces, RGB, X, Y]: torch.Size([27, 3, 160, 160])
+INFO:root: Embedding dimension (DDBB): torch.Size([27, 512])
+INFO:root: [Faces, RGB, X, Y]: torch.Size([1, 3, 160, 160])
+INFO:root: Embedding dimension (TEST IMAGE): torch.Size([1, 512])
+INFO:root:- Most similar face detected is image number 1, with minimum distance of 0.36691200733184814
+WARNING:matplotlib.image:Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers).
