@@ -9,5 +9,4 @@
 
 
 
-https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/6dd46c63-c4ca-48fd-aba9-35c26966feb9
 
