@@ -3,4 +3,6 @@
 
 ## Face Tracking
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/TU_ID_DE_VIDEO" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+### Yolov8-face
+https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/be2e0093-7b68-4467-b056-97db047bb7a5
+
