@@ -4,8 +4,8 @@
 ## Face Tracking
 
 - Yolov8-face
+https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/f0ab621a-d921-4138-950c-0e4d548c2d4c
 
-<video width="480" height="270" controls>
-  <source src="https://github.com/fbayomartinez/Artificial-Vision/blob/a84114f083de1bebe92f7a07a6f880e385e03aa6/FaceTracking/videos/yolo_trim.mp4" type="video/mp4">
-  Tu navegador no soporta la etiqueta de video.
-</video>
+- MTCNN 
+https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/b1b58353-5eb1-42b0-a3c1-4a7f26120e2e
+
