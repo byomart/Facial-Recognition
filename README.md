@@ -2,13 +2,9 @@
 
 ## Face Recognition:
 
+<img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/174a269c-b736-44d7-b02e-3fa3f05f62a7" width="100"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/d9936c9a-bdaa-41b7-9ff5-8639cdd84101" width="100"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/fb82c9a7-42b4-490d-92a3-b9f5c1659e5b" width="100"/>
 
 
-<img width="357" alt="1" src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/174a269c-b736-44d7-b02e-3fa3f05f62a7">
-
-<img width="416" alt="44" src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/d9936c9a-bdaa-41b7-9ff5-8639cdd84101">
-
-<img width="275" alt="3" src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/fb82c9a7-42b4-490d-92a3-b9f5c1659e5b">
 
 
 ## Face Tracking: MTCNN vs Yolov8-face
