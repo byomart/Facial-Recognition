@@ -17,7 +17,7 @@ The first step will be to create a database with the faces against which we want
 Once the database has been created, we will check the correct functioning of the algorithm and, to do so, we will introduce a new image on which we will detect the existing faces.
 
 <p align="center">
-<img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/09702d53-337a-4471-bcc5-41bba236b675" width="350"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/5a19f74e-b3c9-4b6b-a6d6-50e94fccb5e8" width="350"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/d13a1d55-a763-4252-8b88-254895f5964a" width="250"/>
+<img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/09702d53-337a-4471-bcc5-41bba236b675" width="350"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/5a19f74e-b3c9-4b6b-a6d6-50e94fccb5e8" width="350"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/d13a1d55-a763-4252-8b88-254895f5964a" width="350"/>
 </p>
 <br>
 
