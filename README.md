@@ -8,7 +8,7 @@
 The first step will be to create a database with the faces against which we want to check the new face. In this way, we will be able to recognize whether a person has already been registered or not. The clearest example for the application of this algorithm is reflected in the detection or identification of suspects, people with a criminal record... For this example, we have used images of complete squads of soccer teams, on which we have carried out the detection of faces for future facial recognition.
 
 <p align="center">
-<img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/174a269c-b736-44d7-b02e-3fa3f05f62a7" width="300"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/d9936c9a-bdaa-41b7-9ff5-8639cdd84101" width="300"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/fb82c9a7-42b4-490d-92a3-b9f5c1659e5b" width="300"/>
+<img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/174a269c-b736-44d7-b02e-3fa3f05f62a7" width="330"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/d9936c9a-bdaa-41b7-9ff5-8639cdd84101" width="330"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/fb82c9a7-42b4-490d-92a3-b9f5c1659e5b" width="330"/>
 </p>
 <br>
 
@@ -17,7 +17,7 @@ The first step will be to create a database with the faces against which we want
 Once the database has been created, we will check the correct functioning of the algorithm and, to do so, we will introduce a new image on which we will detect the existing faces.
 
 <p align="center">
-<img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/09702d53-337a-4471-bcc5-41bba236b675" width="300"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/5a19f74e-b3c9-4b6b-a6d6-50e94fccb5e8" width="300"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/d13a1d55-a763-4252-8b88-254895f5964a" width="300"/>
+<img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/09702d53-337a-4471-bcc5-41bba236b675" width="350"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/5a19f74e-b3c9-4b6b-a6d6-50e94fccb5e8" width="350"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/d13a1d55-a763-4252-8b88-254895f5964a" width="250"/>
 </p>
 <br>
 
