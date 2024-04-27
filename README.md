@@ -47,13 +47,14 @@ https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/f0ab621a-d92
 
 
 
-## Face Recognition on real time/video input:
+## Face Recognition on video/real-time(RT) input:
 
-
+- **vgg2face**
 
 https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/69ee230a-16f4-4d7a-bdd3-74f39000d952
 
 
-
+- **casia-webface**
+  
 https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/7e1337bf-6b7b-43d4-8783-6d27d69e430f
 
