@@ -47,7 +47,7 @@ https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/f0ab621a-d92
 
 
 
-## Face Recognition on video/real-time(RT) input:
+## Face Recognition on video/real-time(RT):
 
 - **vgg2face**
 
