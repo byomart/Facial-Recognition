@@ -38,11 +38,12 @@ Finally, a comparison of the embeddings corresponding to all the faces stored in
 
 - **MTCNN (Multi-Task Cascaded Convolutional Neural Networks)**
 
-
 <p align="center">
-<img width="416" alt="2" src=https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/b1b58353-5eb1-42b0-a3c1-4a7f26120e2e">
+<img width="416" alt="2" src="https://github.com/fbayomartinez/Facial-Recognition/blob/2bcea7ea77adb9aa00cdf17aa33c1ad94ead4d0d/FaceTracking/arch_MTCNN.png">
 </p>
 
+
+https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/b1b58353-5eb1-42b0-a3c1-4a7f26120e2e
 
 - **Yolov8-face**
   
