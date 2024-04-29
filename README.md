@@ -31,20 +31,17 @@ Finally, a comparison of the embeddings corresponding to all the faces stored in
 <img width="416" alt="2" src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/159b0c7b-aadc-40af-8a6c-ffa402e71d8a">
 </p>
 
-
 <br>
 
 ## Face Tracking: MTCNN vs Yolov8-face
 
-<p align="center">
-<img src="[https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/174a269c-b736-44d7-b02e-3fa3f05f62a7" width="330"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/d9936c9a-bdaa-41b7-9ff5-8639cdd84101](https://github.com/fbayomartinez/Facial-Recognition/blob/dcb27910aaf0d310acc5a4526c86f9bfe73899dd/FaceTracking/arch_MTCNN.png
-)" width="330"/> <img src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/fb82c9a7-42b4-490d-92a3-b9f5c1659e5b" width="330"/>
-</p>
-<br>
 
 - **MTCNN (Multi-Task Cascaded Convolutional Neural Networks)**
-  
-https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/b1b58353-5eb1-42b0-a3c1-4a7f26120e2e
+
+
+<p align="center">
+<img width="416" alt="2" src=https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/b1b58353-5eb1-42b0-a3c1-4a7f26120e2e">
+</p>
 
 
 - **Yolov8-face**
