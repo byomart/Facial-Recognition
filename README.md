@@ -65,6 +65,3 @@ https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/7e1337bf-6b7
 
 
 
-
-incomplete
-
