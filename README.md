@@ -62,6 +62,6 @@ https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/69ee230a-16f
   
 https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/7e1337bf-6b7b-43d4-8783-6d27d69e430f
 
-JAD
+
 
 
