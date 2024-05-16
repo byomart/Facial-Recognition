@@ -1,0 +1,16 @@
+# Nombres de los modelos a utilizar
+models:
+  face_detection: "yolov8m-face.pt"
+
+# Colores de fuente
+font:
+  green: [0, 255, 0]
+  red: [0, 0, 255]
+  size: 1.5
+
+# Threshold distancia embeddings
+threshold: 0.4
+
+# Screen text
+unknown_face: "Desconocido"
+
