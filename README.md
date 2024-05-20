@@ -69,3 +69,7 @@ https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/7e1337bf-6b7
 
 ## Face Recognition on real-time streaming:
 
+- API
+- Streaming_Pickle.py: **Yolov8** + **Inception Resnet V1** (all running over pythorch)
+- Frames 2 video (processed)
+
