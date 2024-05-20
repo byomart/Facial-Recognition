@@ -2,8 +2,10 @@ import os
 import cv2
 import pickle
 import logging
+import threading
 import numpy as np
 from PIL import Image
+import torch
 import torch.nn.functional as F
 from torchvision import transforms
 from scipy.spatial import distance
@@ -131,8 +133,7 @@ def calculate_embeddings_susp(model_embeddings, face):
 
 
 def box_area(x1, x2, y1, y2):
-    """
-    Calculo del área de una box dados sus límites (x1, x2, y1, y2).
+    """  límites (x1, x2, y1, y2).
     """
     base = abs(x2 - x1)
     altura = abs(y2 - y1)
@@ -253,18 +254,40 @@ def crop_faces(frame_pil, results):
                 coords_list.append((x1, y1, x2, y2))
     return cropped_faces, coords_list 
 
-def calculate_embeddings(faces, model_embeddings):
+# def calculate_embeddings(faces, model_embeddings):
+    
+#     embeddings = []
+#     transform = transforms.Compose([
+#         transforms.Resize((160, 160)),
+#         transforms.ToTensor(),
+#         transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
+#     ])
+#     for face in faces:
+#         face_tensor = transform(face)
+#         face_embedding = model_embeddings(face_tensor.unsqueeze(0)).detach()
+#         embeddings.append(face_embedding)
+#     return embeddings
+
+
+def calculate_embeddings(faces, model_embeddings, device):
+    
     embeddings = []
     transform = transforms.Compose([
         transforms.Resize((160, 160)),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.5, 0.5, 0.5], std=[0.5, 0.5, 0.5])
     ])
-    for face in faces:
-        face_tensor = transform(face)
-        face_embedding = model_embeddings(face_tensor.unsqueeze(0)).detach()
+
+    # Move all faces to the chosen device before the loop
+    faces_tensors = [transform(face).to(device) for face in faces]
+
+    for face_tensor in faces_tensors:
+        with torch.no_grad():
+            face_embedding = model_embeddings(face_tensor.unsqueeze(0)).detach()
         embeddings.append(face_embedding)
     return embeddings
+
+
 
 def obtain_pickle_dict(data_pickle):
     known_faces = pickle.loads(open(data_pickle, "rb").read())
@@ -285,7 +308,12 @@ def get_best_distance(data_pickle, embeddings, error_threshold):
             pred = None
             for known_name in known_names:
                 for embds in known_faces[str(known_name)]:
-                    embds_cos_distance = distance.cosine(embeddings,embds)
+                    
+                    # pasamos el tensor de embeddings de caras detectadas a cpu
+                    embeddings_cpu = embeddings.clone().cpu()
+       
+                    embds_cos_distance = distance.cosine(embds,embeddings_cpu)
+
                     if embds_cos_distance < min_distance:
                         min_distance = embds_cos_distance
                         output_preds = str(known_name)        
@@ -320,3 +348,13 @@ def split_prediction(output_preds):
     return name, dni, motivo
 
 
+class CameraBufferCleanerThread(threading.Thread):
+    def __init__(self, camera, name='camera-buffer-cleaner-thread'):
+        self.camera = camera
+        self.last_frame = None
+        super(CameraBufferCleanerThread, self).__init__(name=name)
+        self.start()
+
+    def run(self):
+        while True:
+            ret, self.last_frame = self.camera.read()

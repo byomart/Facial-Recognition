@@ -1,6 +1,6 @@
 # Nombres de los modelos a utilizar
 models:
-  face_detection: "yolov8m-face.pt"
+  face_detection: "yolov8n-face.pt"
 
 # Colores de fuente
 font:

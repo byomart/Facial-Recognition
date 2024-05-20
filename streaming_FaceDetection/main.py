@@ -26,7 +26,7 @@ pickle_path = "suspicious.pickle"
 
 
 # Modelos
-model_faces = YOLO('models/yolov8m-face.pt')
+model_faces = YOLO('models/yolov8n-face.pt')
 model_embeddings = InceptionResnetV1(pretrained='vggface2').eval()
 
 
