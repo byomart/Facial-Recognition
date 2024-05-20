@@ -51,7 +51,7 @@ https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/f0ab621a-d92
 
 
 
-## Face Recognition on video/real-time(RT):
+## Face Recognition on video:
 
 - **vgg2face**
 
@@ -67,7 +67,5 @@ https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/7e1337bf-6b7
 
 
 
-
-...
-
+## Face Recognition on real-time streaming:
 
