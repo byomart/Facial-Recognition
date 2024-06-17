@@ -39,13 +39,14 @@ Finally, a comparison of the embeddings corresponding to all the faces stored in
 
 ## Face Tracking: MTCNN vs Yolov8-face
 
-Ahora, exploraremos y compararemos dos enfoques populares para el seguimiento de objetos y rostros en tiempo real: YOLOv8 (You Only Look Once, versión 8) y MTCNN (Multi-task Cascaded Convolutional Networks). Ambos métodos tienen sus propias ventajas y aplicaciones en el campo de la visión por computadora. A través de esta comparativa, analizaremos la precisión, la eficiencia y la facilidad de implementación de cada técnica.
+Now, we will explore and compare two popular approaches for real-time object and face tracking: YOLOv8 (You Only Look Once, version 8) and MTCNN (Multi-task Cascaded Convolutional Networks). Both methods have their own advantages and applications in the field of computer vision. Through this comparison, we will analyze the accuracy, efficiency and ease of implementation of each technique.
 
 
 - **MTCNN (Multi-Task Cascaded Convolutional Neural Networks)**
 
+
 <p align="center">
-<img width="416" alt="2" src="https://github.com/fbayomartinez/Facial-Recognition/blob/2bcea7ea77adb9aa00cdf17aa33c1ad94ead4d0d/FaceTracking/arch_MTCNN.png">
+<img width="550" alt="2" src="https://github.com/fbayomartinez/Facial-Recognition/blob/2bcea7ea77adb9aa00cdf17aa33c1ad94ead4d0d/FaceTracking/arch_MTCNN.png">
 </p>
 
 
@@ -63,19 +64,30 @@ Ahora, exploraremos y compararemos dos enfoques populares para el seguimiento de
 </p>
 
 
-Nuestra evaluación muestra que YOLOv8 ofrece un enfoque más fiable y obtiene mejores resultados en comparación con MTCNN. YOLOv8 destaca por su capacidad de detección rápida y precisa, manteniendo un equilibrio ideal entre velocidad y precisión. Esto lo hace especialmente útil en aplicaciones de seguimiento en tiempo real donde la fiabilidad y la exactitud son críticas. Por otro lado, MTCNN, aunque eficaz en la detección de rostros, puede no igualar la robustez y versatilidad de YOLOv8 en un entorno de seguimiento más amplio.
+Our evaluation shows that YOLOv8 offers a more reliable approach and achieves better results compared to MTCNN. YOLOv8 stands out for its fast and accurate detection capability, maintaining an ideal balance between speed and accuracy. This makes it especially useful in real-time tracking applications where reliability and accuracy are critical. On the other hand, MTCNN, while effective in face detection, may not match the robustness and versatility of YOLOv8 in a broader tracking environment.
+
 
 
 ## Face Recognition on video:
 
+Next we will perform a detailed comparison between two of the most widely used datasets in the field of face recognition: CASIA-WebFace and VGG-Face. The objective is to determine which of these datasets provides better results when used with the YOLOv8 detection and recognition model. 
+
 - **vgg2face**
 
-https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/69ee230a-16f4-4d7a-bdd3-74f39000d952
+
+<p align="center">
+  <img src="[https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/aa7b074c-38df-4191-ac8b-756cf8ff77e5](https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/4623ac78-4a51-404e-bdea-a2ea65b5d30c)" alt="people_tracked_MTCNN-ezgif com-video-to-gif-converter" width="550">
+</p>
 
 
 - **casia-webface**
-  
-https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/7e1337bf-6b7b-43d4-8783-6d27d69e430f
+
+
+<p align="center">
+  <img src="https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/aa7b074c-38df-4191-ac8b-756cf8ff77e5" alt="people_tracked_MTCNN-ezgif com-video-to-gif-converter" width="550">
+</p>
+
+When training YOLOv8, VGG-Face provides higher accuracy and better overall performance compared to CASIA-WebFace. VGG-Face, known for its wide diversity and high quality of facial images, enables YOLOv8 to achieve higher levels of reliability and accuracy in face recognition tasks. On the other hand, although CASIA-WebFace is a robust and extensive dataset, the results suggest that its performance with YOLOv8 does not reach the same level of effectiveness as VGG-Face.
 
 
 
