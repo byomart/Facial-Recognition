@@ -76,8 +76,9 @@ Next we will perform a detailed comparison between two of the most widely used d
 
 
 <p align="center">
-  <img src="[https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/aa7b074c-38df-4191-ac8b-756cf8ff77e5](https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/4623ac78-4a51-404e-bdea-a2ea65b5d30c)" alt="people_tracked_MTCNN-ezgif com-video-to-gif-converter" width="550">
+  <img src="https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/d6b24821-c4b3-46d8-a865-1c388aaa392a" alt="people_tracked_MTCNN-ezgif com-video-to-gif-converter" width="550">
 </p>
+
 
 
 - **casia-webface**
