@@ -31,6 +31,10 @@ Finally, a comparison of the embeddings corresponding to all the faces stored in
 <img width="416" alt="2" src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/159b0c7b-aadc-40af-8a6c-ffa402e71d8a">
 </p>
 
+<p align="center">
+<img width="416" alt="2" src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/159b0c7b-aadc-40af-8a6c-ffa402e71d8a">
+</p>
+
 <br>
 
 ## Face Tracking: MTCNN vs Yolov8-face
