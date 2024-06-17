@@ -39,6 +39,8 @@ Finally, a comparison of the embeddings corresponding to all the faces stored in
 
 ## Face Tracking: MTCNN vs Yolov8-face
 
+Ahora, exploraremos y compararemos dos enfoques populares para el seguimiento de objetos y rostros en tiempo real: YOLOv8 (You Only Look Once, versión 8) y MTCNN (Multi-task Cascaded Convolutional Networks). Ambos métodos tienen sus propias ventajas y aplicaciones en el campo de la visión por computadora. A través de esta comparativa, analizaremos la precisión, la eficiencia y la facilidad de implementación de cada técnica.
+
 
 - **MTCNN (Multi-Task Cascaded Convolutional Neural Networks)**
 
