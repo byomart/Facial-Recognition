@@ -94,10 +94,11 @@ When using Inception Resnet (IR) models in pytorch, pretrained on VGGFace2 and C
 
 
 
-
+<!--
 ## Face Recognition on real-time streaming:
 
 - API
 - Streaming_Pickle.py: **Yolov8** + **Inception Resnet V1** (all running over pythorch)
 - Frames 2 video (processed)
+-->
 
