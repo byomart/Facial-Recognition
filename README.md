@@ -47,9 +47,9 @@ Finally, a comparison of the embeddings corresponding to all the faces stored in
 </p>
 
 
-<div style="text-align: center;">
-  <img src="https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/545fd310-41af-4b6b-b978-373dfddfe940" alt="people_tracked_MTCNN-ezgif com-video-to-gif-converter" width="400">
-</div>
+<p align="center">
+  <img src="https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/545fd310-41af-4b6b-b978-373dfddfe940" alt="people_tracked_MTCNN-ezgif com-video-to-gif-converter" width="800">
+</p>
 
 
 ![people_tracked_MTCNN-ezgif com-video-to-gif-converter](https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/545fd310-41af-4b6b-b978-373dfddfe940)
