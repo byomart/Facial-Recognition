@@ -63,6 +63,8 @@ Ahora, exploraremos y compararemos dos enfoques populares para el seguimiento de
 </p>
 
 
+Nuestra evaluación muestra que YOLOv8 ofrece un enfoque más fiable y obtiene mejores resultados en comparación con MTCNN. YOLOv8 destaca por su capacidad de detección rápida y precisa, manteniendo un equilibrio ideal entre velocidad y precisión. Esto lo hace especialmente útil en aplicaciones de seguimiento en tiempo real donde la fiabilidad y la exactitud son críticas. Por otro lado, MTCNN, aunque eficaz en la detección de rostros, puede no igualar la robustez y versatilidad de YOLOv8 en un entorno de seguimiento más amplio.
+
 
 ## Face Recognition on video:
 
