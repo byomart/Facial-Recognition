@@ -48,9 +48,12 @@ Finally, a comparison of the embeddings corresponding to all the faces stored in
 
 
 <video width="320" height="240" controls>
-  <source src="Facial-Recognition\FaceTracking\videos\people_tracked_MTCNN.mp4" type="video/mp4">
+  <source src="FaceTracking/videos/people_tracked_MTCNN.mp4" type="video/mp4">
   Tu navegador no soporta la etiqueta de video.
 </video>
+
+
+https://github.com/fbayomartinez/Facial-Recognition/blob/56ac13d2fd2cd262d9079dae995e40d46b518bcc/FaceTracking/videos/people_tracked_MTCNN.mp4
 
 
 
