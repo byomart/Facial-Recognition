@@ -70,7 +70,7 @@ Our evaluation shows that YOLOv8 offers a more reliable approach and achieves be
 
 ## Face Recognition on video:
 
-Next we will perform a detailed comparison between two of the most widely used datasets in the field of face recognition: CASIA-WebFace and VGG-Face. The objective is to determine which of these datasets provides better results when used with the YOLOv8 detection and recognition model. 
+Next we will perform a detailed comparison between two of the most widely used datasets in the field of face recognition: CASIA-WebFace and VGG-Face. The objective is to determine which of these datasets provides better results when used with the Inception Resnet model. 
 
 - **vgg2face**
 
@@ -87,7 +87,7 @@ Next we will perform a detailed comparison between two of the most widely used d
   <img src="https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/aa7b074c-38df-4191-ac8b-756cf8ff77e5" alt="people_tracked_MTCNN-ezgif com-video-to-gif-converter" width="550">
 </p>
 
-When training YOLOv8, VGG-Face provides higher accuracy and better overall performance compared to CASIA-WebFace. VGG-Face, known for its wide diversity and high quality of facial images, enables YOLOv8 to achieve higher levels of reliability and accuracy in face recognition tasks. On the other hand, although CASIA-WebFace is a robust and extensive dataset, the results suggest that its performance with YOLOv8 does not reach the same level of effectiveness as VGG-Face.
+When using Inception Resnet (IR) models in pytorch, pretrained on VGGFace2 and CASIA-Webface, VGGFace2 provides higher accuracy and better overall performance compared to CASIA-WebFace. VGGFace2, known for its wide diversity and high quality of facial images, enables to achieve higher levels of reliability and accuracy in face recognition tasks. On the other hand, although CASIA-WebFace is a robust and extensive dataset, the results suggest that its performance with IR does not reach the same level of effectiveness as VGGFace2.
 
 
 
