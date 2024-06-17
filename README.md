@@ -52,12 +52,13 @@ Finally, a comparison of the embeddings corresponding to all the faces stored in
 </p>
 
 
-![people_tracked_MTCNN-ezgif com-video-to-gif-converter](https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/545fd310-41af-4b6b-b978-373dfddfe940)
-
 
 - **Yolov8-face**
-  
-https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/f0ab621a-d921-4138-950c-0e4d548c2d4c
+
+
+<p align="center">
+  <img src="https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/911c4b6b-8928-460a-9c35-bfacbdd5538a" alt="people_tracked_MTCNN-ezgif com-video-to-gif-converter" width="550">
+</p>
 
 
 
