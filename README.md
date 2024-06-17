@@ -47,20 +47,13 @@ Finally, a comparison of the embeddings corresponding to all the faces stored in
 </p>
 
 
+<div style="text-align: center;">
+  <img src="https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/545fd310-41af-4b6b-b978-373dfddfe940" alt="people_tracked_MTCNN-ezgif com-video-to-gif-converter" width="400">
+</div>
+
+
 ![people_tracked_MTCNN-ezgif com-video-to-gif-converter](https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/545fd310-41af-4b6b-b978-373dfddfe940)
 
-
-<video width="320" height="240" controls>
-  <source src="FaceTracking/videos/people_tracked_MTCNN.mp4" type="video/mp4">
-  Tu navegador no soporta la etiqueta de video.
-</video>
-
-
-https://github.com/fbayomartinez/Facial-Recognition/blob/56ac13d2fd2cd262d9079dae995e40d46b518bcc/FaceTracking/videos/people_tracked_MTCNN.mp4
-
-
-
-https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/b1b58353-5eb1-42b0-a3c1-4a7f26120e2e
 
 - **Yolov8-face**
   
