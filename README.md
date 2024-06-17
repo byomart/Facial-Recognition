@@ -28,7 +28,7 @@ Once the database has been created, we will check the correct functioning of the
 Finally, a comparison of the embeddings corresponding to all the faces stored in the database against the embedding of the new test image is carried out, verifying that the most similar face corresponds to the same person (the Xavineta).
 
 <p align="center">
-<img width="416" alt="2" src="https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/159b0c7b-aadc-40af-8a6c-ffa402e71d8a">
+<img width="594" alt="Captura de pantalla 2024-06-17 100212" src="https://github.com/fbayomartinez/Facial-Recognition/assets/163590683/325dac6b-31fb-4086-9065-4d429da22d91">
 </p>
 
 <p align="center">
