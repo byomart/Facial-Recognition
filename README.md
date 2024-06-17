@@ -47,6 +47,13 @@ Finally, a comparison of the embeddings corresponding to all the faces stored in
 </p>
 
 
+<video width="320" height="240" controls>
+  <source src="Facial-Recognition\FaceTracking\videos\people_tracked_MTCNN.mp4" type="video/mp4">
+  Tu navegador no soporta la etiqueta de video.
+</video>
+
+
+
 https://github.com/fbayomartinez/Artificial-Vision/assets/163590683/b1b58353-5eb1-42b0-a3c1-4a7f26120e2e
 
 - **Yolov8-face**
